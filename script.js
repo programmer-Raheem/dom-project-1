@@ -3,7 +3,7 @@ var addFriend = document.querySelector("#friend");
 let remove=document.querySelector("#remove");
 
 remove.addEventListener("click", function () {
-  isStatus.innerHTML = "stranger";
+  isStatus.innerHTML = "Stranger";
   isStatus.style.color="red";
 });
 addFriend.addEventListener("click", function () {
